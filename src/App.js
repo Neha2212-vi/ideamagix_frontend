@@ -15,7 +15,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/" element={<AdminLogin />} />
           {token && (
-            <Route path="admin_dashboard" element={<AdminDashboard />}>
+            <Route path="/admin_dashboard" element={<AdminDashboard />}>
               <Route path="allinstructor" element={<AllInstructor />} />
               <Route path="addcourse" element={<AddCourse />} />
             </Route>
