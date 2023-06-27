@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    list-style: none;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 20px gray;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.header .list_item{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.header .list_item:active{
+    color: white;
+    font-weight: 700;
+}
+.header .list_item:hover{
+    color: rgb(255, 255, 255);
+}
+.card{
+    width: 50%;
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+.card_wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+

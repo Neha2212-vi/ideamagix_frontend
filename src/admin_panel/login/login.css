@@ -1,0 +1,75 @@
+.login{
+    width: 400px;
+    /* height: 450px; */
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 10px rgb(236, 227, 227);
+}
+#typeOfUser{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+
+}
+#type{
+    margin-bottom: 10px;
+}
+.login label{
+    display: block;
+}
+.login-heading{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.email_login, .pass_login{
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#email_login, #pass_login{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.btn{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(246, 112, 134);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.forgot{
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.alt{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.error{
+    width:100%;
+    height: 60px;
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
