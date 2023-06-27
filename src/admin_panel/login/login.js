@@ -25,8 +25,8 @@ const LogIn = () => {
       let url = "";
       {
         type === "Admin"
-          ? (url = "https://ideamagix-backend-1gwu.onrender.com")
-          : (url = "https://ideamagix-backend-1gwu.onrender.com");
+          ? (url = "https://ideamagix-backend-1gwu.onrender.com/admin/Login")
+          : (url = "https://ideamagix-backend-1gwu.onrender.com/instructor/Login");
       }
       const { login: res } = await axios.post(url, login);
       localStorage.setItem("token", login.data);

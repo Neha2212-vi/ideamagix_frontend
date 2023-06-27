@@ -26,8 +26,8 @@ const SignUp = () => {
       let url = "";
       {
         type === "Admin"
-          ? (url = "https://ideamagix-backend-1gwu.onrender.com")
-          : (url = "https://ideamagix-backend-1gwu.onrender.com");
+          ? (url = "https://ideamagix-backend-1gwu.onrender.com/admin/Signup")
+          : (url = "https://ideamagix-backend-1gwu.onrender.com/instructor/Signup");
       }
       const { data: res } = await axios.post(url, data);
       naviagte("/");

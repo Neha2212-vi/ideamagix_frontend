@@ -10,7 +10,7 @@ const AllInstructor = ()=>{
     // };
     useEffect(()=>{
       const allInstructor = async ()=>{
-          const res = await axios.get("http://localhost:8080/all_instructor")
+          const res = await axios.get("https://ideamagix-backend-1gwu.onrender.com/all_instructor")
           setInstructors(res.data)
       }
       allInstructor();
